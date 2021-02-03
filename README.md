@@ -45,12 +45,12 @@
 ## Install
 
 ```
-npm install terminal-in-react --save
+npm install https://github.com/kiennd/terminal-in-react --save
 ```
 or if you use `yarn`
 
 ```
-yarn add terminal-in-react
+yarn add https://github.com/kiennd/terminal-in-react
 ```
 
 This package also depends on `react` so make sure you've already installed it.
