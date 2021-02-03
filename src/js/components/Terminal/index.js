@@ -872,6 +872,9 @@ class Terminal extends Component {
   watchConsoleLogging = () => {
     handleLogging('log', this.printToActive);
     handleLogging('info', this.printToActive);
+    handleLogging('error', this.printToActive);
+    handleLogging('warn', this.printToActive);
+    
   };
 
   // List all the commands (state + user defined)
